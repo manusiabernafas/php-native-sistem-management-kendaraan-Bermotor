@@ -1,0 +1,2 @@
+# Mencegah akses ke file JSON secara langsung
+Require all denied

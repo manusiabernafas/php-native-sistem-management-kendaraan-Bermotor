@@ -1,0 +1,66 @@
+[
+    {
+        "armada_id": "ARM-177896076195",
+        "keterangan": "ganti oli",
+        "tanggal": "2026-05-18",
+        "status": "selesai",
+        "id": "SER-177896134553",
+        "created_at": "2026-05-17 02:55:45",
+        "selesai_pada": "2026-05-17 03:01:44"
+    },
+    {
+        "armada_id": "ARM-177896076195",
+        "tanggal": "2026-05-20",
+        "jenis_service": "Servis Rutin Berkala",
+        "keterangan": "⚠️ GANTI OLI RUTIN (KM telah melampaui 80.000)",
+        "status": "selesai",
+        "id": "SER-177898079475",
+        "created_at": "2026-05-17 08:19:54",
+        "selesai_pada": "2026-05-17 08:22:43",
+        "biaya": "100000",
+        "nota": ""
+    },
+    {
+        "armada_id": "ARM-177896076195",
+        "keterangan": "ganti oli",
+        "tanggal": "2026-05-17",
+        "status": "selesai",
+        "id": "SER-177898200975",
+        "created_at": "2026-05-17 08:40:09",
+        "selesai_pada": "2026-05-17 08:43:06",
+        "biaya": "40000",
+        "nota": ""
+    },
+    {
+        "armada_id": "ARM-177896076195",
+        "keterangan": "ganti oli",
+        "tanggal": "2026-05-05",
+        "status": "selesai",
+        "id": "SER-177898202513",
+        "created_at": "2026-05-17 08:40:25",
+        "selesai_pada": "2026-05-17 09:51:43",
+        "biaya": "70000",
+        "nota": ""
+    },
+    {
+        "armada_id": "ARM-177896076195",
+        "keterangan": "ganti ban",
+        "tanggal": "2026-06-17",
+        "status": "pending",
+        "id": "SER-177898222538",
+        "created_at": "2026-05-17 08:43:45"
+    },
+    {
+        "armada_id": "ARM-177896076195",
+        "tanggal": "2026-05-17",
+        "jenis_service": "Perbaikan Laporan Kerusakan",
+        "keterangan": "Laporan dari Supir Budi: pecah ban",
+        "alert_id": "ALE-177898333117",
+        "status": "selesai",
+        "id": "SER-177898333146",
+        "created_at": "2026-05-17 09:02:11",
+        "selesai_pada": "2026-05-17 09:03:28",
+        "biaya": "80000",
+        "nota": ""
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "armada_id": "ARM-177896076195",
+        "keterangan": "ban kiri pecah",
+        "tipe": "urgent",
+        "driver_id": "USR-DRIVER-01",
+        "driver_name": "Supir Budi",
+        "km_saat_ini": "80000",
+        "foto": "",
+        "gps_lat": "-7.7865152",
+        "gps_lng": "110.3428084",
+        "status": "resolved",
+        "id": "ALE-177896281781",
+        "created_at": "2026-05-17 03:20:17",
+        "resolved_at": "2026-05-17 03:28:09",
+        "biaya": "22000",
+        "nota": ""
+    },
+    {
+        "armada_id": "ARM-177896076195",
+        "keterangan": "pecah ban",
+        "tipe": "urgent",
+        "driver_id": "USR-DRIVER-01",
+        "driver_name": "Supir Budi",
+        "km_saat_ini": "79999",
+        "foto": "",
+        "gps_lat": "-7.7756684",
+        "gps_lng": "110.3443059",
+        "status": "resolved",
+        "id": "ALE-177898333117",
+        "created_at": "2026-05-17 09:02:11",
+        "resolved_at": "2026-05-17 09:03:28",
+        "biaya": "80000",
+        "nota": ""
+    }
+]

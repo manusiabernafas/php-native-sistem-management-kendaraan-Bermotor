@@ -1,0 +1,22 @@
+Website SIMANDA (Sistem Informasi Manajemen Armada): platform manajemen armada kendaraan dinas berbasis web untuk instansi pemerintah/organisasi dengan banyak unit kendaraan (ambulans, mobil operasional, motor, hingga truk), dilengkapi pelacakan kondisi armada secara real-time, jadwal & riwayat servis, laporan kerusakan darurat dari sopir di lapangan, kode QR unik per kendaraan untuk pengecekan publik tanpa login, serta dashboard analitik biaya operasional untuk pengambilan keputusan manajemen. Sistem dirancang mobile-first ala aplikasi ojek online (app shell, bottom navigation, splash screen) dan bisa dipasang sebagai PWA di HP sopir maupun ditampilkan sebagai monitor live di kantor.
+Cara kerja
+Sistem terbagi menjadi tiga alur pengguna. Admin login untuk mengelola data armada (tambah/edit/hapus, import massal dari Excel/CSV), memantau laporan kerusakan yang masuk, menjadwalkan dan mencatat riwayat servis lengkap dengan biaya, mengatur akun pengguna (admin & sopir), mencetak QR code kendaraan, serta melihat dashboard Analitik Eksekutif berisi biaya operasional per KM, jumlah armada sehat vs. dalam servis, dan daftar kendaraan paling sering rusak. Sopir login melalui tampilan ala Gojek untuk check-in/check-out kendaraan yang dipakai, melaporkan kondisi/kerusakan lengkap dengan foto dan titik GPS, serta menekan tombol darurat saat terjadi masalah mendesak di jalan. Publik (tanpa login) dapat memindai kode QR yang ditempel di kaca kendaraan untuk melihat status dan informasi unit kendaraan tersebut, cocok untuk transparansi maupun mitra dinas yang perlu memverifikasi armada.
+Fitur
+Manajemen data armada (CRUD + import Excel/CSV)
+Laporan kerusakan real-time dari sopir (foto + lokasi GPS)
+Tombol darurat / panic button
+Jadwal & riwayat servis kendaraan beserta biaya
+Kode QR per kendaraan (cetak & scan publik)
+Manajemen pengguna (admin & sopir)
+Dashboard Analitik Eksekutif (biaya per KM, statistik armada, top kerusakan)
+Live monitor untuk layar TV kantor
+PWA mobile-first (bisa "install" ke HP, offline-ready lewat Service Worker)
+Panduan instalasi
+Aplikasi ini berjalan di atas PHP native (tanpa framework, tanpa MySQL — semua data disimpan sebagai file JSON), jadi kamu tidak perlu npm install atau setup database. Yang dibutuhkan hanya PHP + web server (bisa pakai XAMPP/Laragon, atau PHP built-in server untuk cara paling cepat).
+
+Ekstrak file ZIP
+Beri izin tulis (write permission) pada folder data/ dan uploads/ — folder ini dipakai aplikasi untuk menyimpan data JSON dan file upload (khusus Linux/Mac)
+chmod -R 775 simandav1/data simandav1/uploads
+Jalankan server
+Login menggunakan akun default berikut (dibuat otomatis saat pertama kali membuka halaman login): Role Username Password Admin admin admin123 Sopir driver driver123
+Catatan: pastikan ekstensi mod_rewrite aktif di Apache (default sudah aktif di XAMPP/Laragon) agar URL bisa diakses tanpa perlu ?url=.... Jika pakai PHP built-in server, seluruh menu tetap bisa diakses lewat format URL ?url=nama-halaman karena router aplikasi sudah menangani fallback ini secara otomatis.

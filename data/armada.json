@@ -1,0 +1,63 @@
+[
+    {
+        "no_polisi": "ab 2017 cc",
+        "merk": "avansa",
+        "jenis": "Ambulance",
+        "tahun": "2022",
+        "status": "tersedia",
+        "id": "ARM-177896076195",
+        "created_at": "2026-05-17 02:46:01",
+        "dipakai_oleh": null,
+        "checkin_time": null,
+        "km_saat_ini": 5000,
+        "last_service_km": 80000,
+        "pajak_date": "2026-05-16",
+        "stnk_date": "2027-05-17",
+        "last_service": "2026-05-17",
+        "next_service": "2026-11-17"
+    },
+    {
+        "no_polisi": "AB1234XY",
+        "jenis": "Ambulance",
+        "merk": "Toyota HiAce",
+        "tahun": 2022,
+        "status": "tersedia",
+        "pajak_date": "2027-05-10",
+        "stnk_date": "2031-05-10",
+        "id": "ARM-177898591052",
+        "created_at": "2026-05-17 09:45:10"
+    },
+    {
+        "no_polisi": "AB5678YZ",
+        "jenis": "Roda 2 Bermesin",
+        "merk": "Honda Supra X",
+        "tahun": 2019,
+        "status": "tersedia",
+        "pajak_date": "2026-11-20",
+        "stnk_date": "2029-11-20",
+        "id": "ARM-177898591048",
+        "created_at": "2026-05-17 09:45:10"
+    },
+    {
+        "no_polisi": "AB9012AA",
+        "jenis": "Roda 4 Bermesin",
+        "merk": "Toyota Avanza",
+        "tahun": 2021,
+        "status": "service",
+        "pajak_date": "2027-02-15",
+        "stnk_date": "2031-02-15",
+        "id": "ARM-177898591014",
+        "created_at": "2026-05-17 09:45:10"
+    },
+    {
+        "no_polisi": "AB7890CC",
+        "jenis": "Roda 6 Bermesin",
+        "merk": "Hino Dutro Truk",
+        "tahun": 2020,
+        "status": "tersedia",
+        "pajak_date": "2026-08-05",
+        "stnk_date": "2030-08-05",
+        "id": "ARM-177898591090",
+        "created_at": "2026-05-17 09:45:10"
+    }
+]

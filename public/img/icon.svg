@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Badan Ambulans -->
+  <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11h2"></path>
+  <path d="M18 18h2v-5l-5-5h-3"></path>
+  <!-- Roda -->
+  <circle cx="4" cy="18" r="2"></circle>
+  <path d="M8 18h6"></path>
+  <circle cx="16" cy="18" r="2"></circle>
+  <!-- Tanda Plus Medis (Line) -->
+  <path d="M10 10H6"></path>
+  <path d="M8 8v4"></path>
+</svg>

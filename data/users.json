@@ -1,0 +1,18 @@
+[
+    {
+        "id": "USR-ADMIN-01",
+        "name": "Admin Utama",
+        "username": "admin",
+        "password": "$2y$10$UPYxOTfToCs9xFT8uVHX7ugagihpQtaMLqRKt8JrqkDBu76Cq\/xRu",
+        "role": "admin",
+        "created_at": "2026-05-17 02:43:32"
+    },
+    {
+        "id": "USR-DRIVER-01",
+        "name": "Supir Budi",
+        "username": "driver",
+        "password": "$2y$10$G7d.rGHFznMXxMi3UpxXbevE5N1WtY4bCmC2gHSNAhQC\/UUfFE7j2",
+        "role": "driver",
+        "created_at": "2026-05-17 02:43:32"
+    }
+]
